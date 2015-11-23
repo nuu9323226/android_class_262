@@ -12,4 +12,3 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 helloworld
-my name is vincent
