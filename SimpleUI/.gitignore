@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+*.iml
+>>>>>>> origin/master
 .gradle
 /local.properties
 /.idea/workspace.xml

@@ -2,6 +2,7 @@ package com.example.simpleui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.CheckBox;
@@ -14,11 +15,16 @@ public class MainActivity extends AppCompatActivity {
     private EditText inputText;
     //private View view;
     private CheckBox hideCheckBox;
+=======
+
+public class MainActivity extends AppCompatActivity {
+>>>>>>> origin/master
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         inputText = (EditText)findViewById(R.id.editText);
         inputText.setText("1234");
         inputText.setOnKeyListener(new View.OnKeyListener() {
@@ -49,3 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
+=======
+    }
+}
+>>>>>>> origin/master
